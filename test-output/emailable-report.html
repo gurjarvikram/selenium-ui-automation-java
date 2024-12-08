@@ -8,32 +8,11 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Loan Department</th></tr>
-<tr><td><a href="#t0">Car loan</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">34</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Personal Loan</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">27</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">11</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">61</th><th colspan="2"></th></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">27</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Loan Department</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Car loan &#8212; passed</th></tr><tr class="passedeven"><td rowspan="7">tests.Day3</td><td><a href="#m0">loginAPICarLoan</a></td><td rowspan="1">1733670342967</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m1">mobileLoginCarLoan</a></td><td rowspan="1">1733670342947</td><td rowspan="1">3</td></tr><tr class="passedeven"><td><a href="#m2">mobileSignOutCarLoan</a></td><td rowspan="1">1733670342954</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m3">testDataDriven</a></td><td rowspan="3">1733670342957</td><td rowspan="3">1</td></tr><tr class="passedeven"><td><a href="#m4">testDataDriven</a></td></tr><tr class="passedeven"><td><a href="#m5">testDataDriven</a></td></tr><tr class="passedeven"><td><a href="#m6">webLoginCarLoan</a></td><td rowspan="1">1733670342964</td><td rowspan="1">1</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Personal Loan &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.Day1</td><td><a href="#m7">demo</a></td><td rowspan="1">1733670342946</td><td rowspan="1">6</td></tr><tr><th colspan="4">Personal Loan &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.Day2</td><td><a href="#m8">pLoan</a></td><td rowspan="1">1733670342954</td><td rowspan="1">1</td></tr><tr class="passedodd"><td rowspan="3">tests.Day4</td><td><a href="#m9">loginAPIHomeLoan</a></td><td rowspan="1">1733670342955</td><td rowspan="1">1</td></tr><tr class="passedodd"><td><a href="#m10">mobileLoginHomeLoan</a></td><td rowspan="1">1733670342957</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m11">webLoginHomeLoan</a></td><td rowspan="1">1733670342958</td><td rowspan="1">2</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">inheritanceLogic.PS1</td><td><a href="#m0">testRun</a></td><td rowspan="1">1733678035479</td><td rowspan="1">4</td></tr></tbody>
 </table>
-<h2>Car loan</h2><h3 id="m0">tests.Day3#loginAPICarLoan</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">tests.Day3#mobileLoginCarLoan</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">tests.Day3#mobileSignOutCarLoan</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">tests.Day3#testDataDriven</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>firstSetUsername</td><td>firstPassword</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">tests.Day3#testDataDriven</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>thirdSetUsername</td><td>thirdpassword</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">tests.Day3#testDataDriven</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>secondSetUsername</td><td>secondpassword</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">tests.Day3#webLoginCarLoan</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>https://www.carloan.com/</td><td>scerateId123456</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Personal Loan</h2><h3 id="m7">tests.Day1#demo</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
-	at tests.Day1.demo(Day1.java:19)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">tests.Day2#pLoan</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">tests.Day4#loginAPIHomeLoan</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">tests.Day4#mobileLoginHomeLoan</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m11">tests.Day4#webLoginHomeLoan</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>https://www.personalloan.com/</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">inheritanceLogic.PS1#testRun</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
